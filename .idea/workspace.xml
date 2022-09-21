@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/JUnitDemotest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTest.java" afterDir="false" />
+    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment="start home work">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/PracticeFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +58,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.TextBoxTest">
+}</component>
+  <component name="RunManager" selected="Gradle.PracticeFormTest.fillFormTest">
     <configuration name="JUnitDemotest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -99,7 +89,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JUnitDemotest.simpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PracticeFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +102,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.JUnitDemotest.simpleTest&quot;" />
+            <option value="&quot;com.demoqa.PracticeFormTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -122,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JUnitDemotest.simpleTestSecond" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PracticeFormTest.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +125,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.demoqa.JUnitDemotest.simpleTestSecond&quot;" />
+            <option value="&quot;com.demoqa.PracticeFormTest.fillFormTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PracticeFormTest.fillFormTest" />
+        <item itemvalue="Gradle.PracticeFormTest" />
         <item itemvalue="Gradle.TextBoxTest" />
         <item itemvalue="Gradle.TextBoxTest.fillFormTest" />
         <item itemvalue="Gradle.JUnitDemotest" />
-        <item itemvalue="Gradle.JUnitDemotest.simpleTestSecond" />
-        <item itemvalue="Gradle.JUnitDemotest.simpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +200,28 @@
       <option name="presentableId" value="Default" />
       <updated>1663512359872</updated>
     </task>
+    <task id="LOCAL-00001" summary="textbox test">
+      <created>1663518328286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663518328286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="textbox test">
+      <created>1663522922814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663522922814</updated>
+    </task>
+    <task id="LOCAL-00003" summary="start home work">
+      <created>1663526944350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663526944350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,5 +234,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="textbox test" />
+    <MESSAGE value="start home work" />
+    <option name="LAST_COMMIT_MESSAGE" value="start home work" />
   </component>
 </project>
