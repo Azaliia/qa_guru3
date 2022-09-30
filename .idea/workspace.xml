@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment=" home work">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/PracticeFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/GeolocationComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/ResultsTableComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/JUnitDemotest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/JUnitDemotest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/TextBoxTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment="edit url" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663762491423</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="edit url">
+      <created>1664549604899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664549604899</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +259,7 @@
     <MESSAGE value="textbox test" />
     <MESSAGE value="start home work" />
     <MESSAGE value=" home work" />
-    <option name="LAST_COMMIT_MESSAGE" value=" home work" />
+    <MESSAGE value="edit url" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit url" />
   </component>
 </project>

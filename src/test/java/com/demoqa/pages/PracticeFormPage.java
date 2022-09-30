@@ -5,11 +5,12 @@ import com.demoqa.pages.components.CalendarComponent;
 import com.demoqa.pages.components.GeolocationComponent;
 import com.demoqa.pages.components.ResultsTableComponent;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class PracticeFormPage {
+    private final static String TITLE_TEXT = "Student Registration Form";
 
     private CalendarComponent calendarComponent = new CalendarComponent();
     private GeolocationComponent geolocationComponent = new GeolocationComponent();
@@ -29,6 +30,9 @@ public class PracticeFormPage {
 
     public PracticeFormPage openPage(){
         open("/automation-practice-form");
+        $(".practice-form-wrapper").shouldHave(text(TITLE_TEXT));
+        executeJavaScript("$('footer').remove()");
+        executeJavaScript("$('#fixedban').remove()");
         return this;
     }
 
