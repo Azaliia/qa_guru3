@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment="edit url" />
+    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment="add scip script">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -45,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="pageobjects" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +78,7 @@
       <recent name="com.demoqa.pages.components" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PracticeFormTest (1)">
+  <component name="RunManager" selected="Gradle.PracticeFormTest.fillFormTest (1)">
     <configuration name="PracticeFormTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -189,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PracticeFormTest (1)" />
         <item itemvalue="Gradle.PracticeFormTest.fillFormTest (1)" />
+        <item itemvalue="Gradle.PracticeFormTest (1)" />
         <item itemvalue="Gradle.PracticeFormTest.fillFormTest" />
         <item itemvalue="Gradle.PracticeFormTest" />
         <item itemvalue="Gradle.TextBoxTest" />
@@ -241,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664549604899</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add scip script">
+      <created>1664550035435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664550035435</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +274,7 @@
     <MESSAGE value="start home work" />
     <MESSAGE value=" home work" />
     <MESSAGE value="edit url" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit url" />
+    <MESSAGE value="add scip script" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scip script" />
   </component>
 </project>

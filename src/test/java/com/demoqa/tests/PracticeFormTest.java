@@ -2,17 +2,15 @@ package com.demoqa.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.demoqa.pages.PracticeFormPage;
+import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import java.io.File;
-
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import java.util.Locale;
 
 public class PracticeFormTest {
+
+    Faker faker = new Faker(new Locale("de"));
 
     PracticeFormPage practiceFormPage = new PracticeFormPage();
 
@@ -28,15 +26,21 @@ public class PracticeFormTest {
     void fillFormTest(){
 
         String
-                name = "Ivan",
-                lastName = "Ivanov",
-                email = "ivan@test.ru",
+                name = faker.name().firstName(),
+                lastName = faker.name().lastName(),
+                email = faker.internet().emailAddress(),
                 gender = "Female",
-                mobile = "3246758909",
+                mobile = faker.phoneNumber().subscriberNumber(10),
+                day = "08",
+                month = "August",
+                year = "1990",
                 subject = "English",
-                address = "test street",
+                address = faker.address().fullAddress(),
                 hobbie = "Reading",
-                picterUrl = "1.png";
+                picterUrl = "1.png",
+                state = "NCR",
+                city = "Delhi"
+        ;
 
         practiceFormPage
                 .openPage()
@@ -45,24 +49,24 @@ public class PracticeFormTest {
                 .setEmail(email)
                 .setGender(gender)
                 .setMobile(mobile)
-                .setBirthDate("08", "August", "1990")
+                .setBirthDate(day, month, year)
                 .setSubject(subject)
                 .setHobbies(hobbie)
                 .setPicture(picterUrl)
                 .setAddress(address)
-                .setLocation("NCR", "Delhi")
+                .setLocation(state, city)
                 .clickSubmit();
 
         practiceFormPage.checkResult("Student Name", (name + " " + lastName))
                 .checkResult("Student Email", email)
                 .checkResult("Gender", gender)
                 .checkResult("Mobile", mobile)
-                .checkResult("Date of Birth", "08 August,1990")
+                .checkResult("Date of Birth", day + " " + month + "," + year)
                 .checkResult("Subjects", subject)
                 .checkResult("Hobbies", hobbie)
                 .checkResult("Picture", "1.png")
                 .checkResult("Address", address)
-                .checkResult("State and City", "NCR Delhi");
+                .checkResult("State and City", state+ " " + city);
 
     }
 }
