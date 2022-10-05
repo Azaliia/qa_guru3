@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment="add scip script">
+    <list default="true" id="361d2d8a-265b-4d5d-a07b-3183d10c1212" name="Changes" comment="add faker test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664550035435</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add faker test">
+      <created>1664906445131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664906445131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +282,7 @@
     <MESSAGE value=" home work" />
     <MESSAGE value="edit url" />
     <MESSAGE value="add scip script" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scip script" />
+    <MESSAGE value="add faker test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add faker test" />
   </component>
 </project>
